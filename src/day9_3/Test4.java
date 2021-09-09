@@ -15,9 +15,6 @@ public class Test4 {
 		String user="root";
 		String password="root";
 		
-		
-		
-		
 		List<Connection> list=new ArrayList<Connection>();
 		
 		System.out.println(list);
