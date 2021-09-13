@@ -8,7 +8,6 @@ import com.bwf.entity.User;
  * 关于用户的数据操作
  * 
  * @author zhangL
- *
  */
 public interface IUserdao {
 	/**
@@ -30,7 +29,8 @@ public interface IUserdao {
 	public int update(User user);
 
 	/**
-	 * 用户查询 id 返回查询到的用户数据
+	 * @param id 用户查询
+	 * @return id 返回查询到的用户数据
 	 */
 	public User findById(int id);
 
@@ -43,13 +43,15 @@ public interface IUserdao {
 	/**
 	 * 查询全部
 	 * 
+	 * @param name
 	 * @return 多个用户对象
 	 */
 	public List<User> findAll();
 
 	/**
-	 * 分页查询 pageNum 页码
+	 * 分页查询
 	 * 
+	 * @param pageNum 页码
 	 * @return 多个用户对象
 	 */
 	public List<User> findAll(int pageNum);

@@ -1,8 +1,8 @@
 package day9_6;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
 import com.bwf.dao.IUserdao;
 import com.bwf.dao.impl.UserDao;
 import com.bwf.entity.User;
@@ -56,9 +56,8 @@ public class Test1 {
 
 		//查询所有用户
 
-		List<User> userlist2=userDao.findAll(1);
-
-		System.out.println(userlist2.size());
+/*		List<User> userlist2=userDao.findAll(1);
+		System.out.println(userlist2.size());*/
 
 
 

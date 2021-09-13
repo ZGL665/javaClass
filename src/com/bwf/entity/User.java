@@ -9,6 +9,7 @@ public class User {
 	private String name;
 	private String sex;
 	private Date birthday;
+	private Date startdate;
 	public int getId() {
 		return id;
 	}
@@ -17,6 +18,12 @@ public class User {
 	}
 	public String getName() {
 		return name;
+	}
+	public Date getStartdate() {
+		return startdate;
+	}
+	public void setStartdate(Date startdate) {
+		this.startdate = startdate;
 	}
 	public void setName(String name) {
 		this.name = name;
